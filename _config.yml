@@ -4,17 +4,17 @@
 
 # Site
 title: My learning notes
-subtitle: ''
+subtitle: 'Life is short,Let's Go'
 description: ''
 keywords:
 author: wyule
-language: en
+language: zh-Hans
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://wyule.gitee.io/blog
-root: 
+url: https://wyule.gitee.io/blog/
+root: /blog/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,4 +103,11 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git                        # type为git
+  repo: https://gitee.com/wyule/blog.git # 仓库的 URL
+  branch: master
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
