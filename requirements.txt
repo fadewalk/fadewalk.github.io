@@ -1,4 +1,8 @@
-mkdocs-material==5.1.1
-mkdocs==1.1
+# mkdocs-material==5.1.1
+# mkdocs==1.1
 mkdocs-roamlinks-plugin
 mkdocs-exclude
+mkdocs-material
+mkdocs
+pymdown-extensions
+mkdocs-roamlinks-plugin

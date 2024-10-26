@@ -9,14 +9,22 @@ theme:
   language: zh # 中文，解决中文搜索问题
   features:
     - navigation.expand 
-    - tabs 
+    - tabs
+nav:
+  - 首页: index.md
+  - 文章:
+    - 文章1: foo-tab/文章.md
+    - 示例: foo-tab/example.md
+    - 链接: foo-tab/链接.md
+  - 教程: tutorial.md
+  - 测试: test.md
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
   - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
   - nl2br # newline-to-break 
   - toc:
       permalink: '#' # heading anchor 
-      slugify: !!python/name:pymdownx.slugs.uslugify # 解决中文标题解析问题
+      # slugify: !!python/name:pymdownx.slugs.uslugify # 解决中文标题解析问题
   - admonition
   - codehilite:
       guess_lang: false
