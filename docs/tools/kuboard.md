@@ -9,7 +9,7 @@ services:
     image: mysql:8.0
     container_name: mysql_container
     environment:
-      MYSQL_ROOT_PASSWORD: Wyl@mysql666
+      MYSQL_ROOT_PASSWORD: xxxx
       MYSQL_INITDB_SCRIPT: /docker-entrypoint-initdb.d/init.sql
       MYSQL_SQL_MODE: "STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
     ports:
@@ -34,8 +34,8 @@ services:
       TZ: "Asia/Shanghai"
       DB_DRIVER: com.mysql.cj.jdbc.Driver
       DB_URL: "jdbc:mysql://mysql_container:3306/kuboard?serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true"
-      DB_USERNAME: kuboard
-      DB_PASSWORD: Kuboard123
+      DB_USERNAME: xxxx
+      DB_PASSWORD: xxxxx
     ports:
       - "8088:80"
     depends_on:
