@@ -10,14 +10,14 @@ theme:
   features:
     - navigation.expand 
     - tabs
-nav:
-  - 首页: index.md
-  - 文章:
-    - 文章1: foo-tab/文章.md
-    - 示例: foo-tab/example.md
-    - 链接: foo-tab/链接.md
-  - 教程: tutorial.md
-  - 测试: test.md
+# nav:
+#   - 首页: index.md
+#   - 文章:
+#     - 文章1: foo-tab/文章.md
+#     - 示例: foo-tab/example.md
+#     - 链接: foo-tab/链接.md
+#   - 教程: tutorial.md
+#   - 测试: test.md
 markdown_extensions: 
   - attr_list # https://squidfunk.github.io/mkdocs-material/reference/images/
   - pymdownx.tabbed  # https://squidfunk.github.io/mkdocs-material/reference/content-tabs/
