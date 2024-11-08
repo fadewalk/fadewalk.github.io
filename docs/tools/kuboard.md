@@ -22,10 +22,10 @@ services:
   #   image: swr.cn-east-2.myhuaweicloud.com/kuboard/kuboard-v4-ldap-example:v4
   #   container_name: kuboard-ldap-example
   #   environment:
-  #     - LDAP_URL=ldap://ubiq2.com:389
-  #     - LDAP_USERNAME=ylwen=blueking,dc=ubiq2,dc=com
-  #     - LDAP_PASSWORD=Wyl606,gz
-  #     - LDAP_BASE=ou="九坤投资",dc=ubiq2,dc=com
+  #     - LDAP_URL=
+  #     - LDAP_USERNAME=
+  #     - LDAP_PASSWORD=
+  #     - LDAP_BASE=ou=
   #   restart: always
   kuboard:
     image: swr.cn-east-2.myhuaweicloud.com/kuboard/kuboard:v4
